@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
     <MyTitle/>
+    <jumboTron/>
   </div>
 </template>
 
 <script>
 import MyTitle from './components/MyTitle.vue'
+import jumboTron from './components/jumboTron.vue'
 
 export default {
   name: 'App',
   components: {
     MyTitle,
+    jumboTron,
   }
 }
 </script>
@@ -24,5 +26,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  overflow: hidden;
 }
 </style>

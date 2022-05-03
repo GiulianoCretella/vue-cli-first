@@ -7,3 +7,8 @@ export default {
   name: 'MyTitle',
 }
 </script>
+<style scoped>
+h1{
+    font-size: 4em;
+}
+</style>
